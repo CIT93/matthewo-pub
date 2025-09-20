@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>W4 – Greeting Generator</title>
+</head>
+<body>
+  <h1>Greeting Generator</h1>
+
+  <!-- Simple form for the challenge -->
+  <form id="greetingForm">
+    <label for="nameInput">Your name:</label>
+    <input id="nameInput" name="name" type="text" placeholder="Type your name" required />
+    <button id="submitBtn" type="submit">Greet Me</button>
+    <button id="clearBtn" type="button">Clear</button>
+  </form>
+
+  <p id="output">Your greeting will appear here.</p>
+
+  <!-- Link the JS as a module so imports would work if you split files -->
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
